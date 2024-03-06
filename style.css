@@ -1,0 +1,319 @@
+body
+{
+	margin: 0% 0% 0% 0%;
+	background-color: black;
+}
+.firstdiv
+	{
+		background-image: url("bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		margin: 0%;
+		padding: 0%;
+		
+	}
+
+	.names
+	{
+		font-size: 12px;
+		font-family: arial;
+		height: 15px;
+	}
+
+
+	td
+	{
+		width: 25%;
+	}
+	.marquee1
+	{
+		color: rgb(255, 255, 255);
+		font-weight: bolder;
+		letter-spacing: 5px;
+		font-size: 30px;
+		margin-top: 10px;
+	}
+	.strangepic
+	{
+		
+		margin-top: 20px;
+		margin-left: 30px;
+		transition-duration: 1s;
+		transform: scale(1.2);
+		background: linear-gradient(red,blue);
+		padding: 2px;
+		
+	}
+
+
+	.strangepic:hover
+	{
+		background: linear-gradient(blue,yellow,red);
+
+	}
+	.myinfo
+	{
+		color: rgb(229, 255, 0);
+		margin-top: 50px;
+		margin-left: 30px;
+		word-spacing: 5px;
+		transition-duration: 1s;
+		line-height: 30px;
+		text-align: justify;
+		font-size: 22px;
+
+
+
+	}
+	/* p:hover
+	{
+		transform: scale(1.1);
+		background-color: transparent;
+		color: aqua;
+		padding-left: 10px;
+		padding-right: 10px;
+		line-height: 30px;
+
+	} */
+	.cont
+	{
+		display: flex;
+		width: 95%;
+
+	}
+	.h21
+	{
+		font-size: 100px;
+		font-family: Century;
+		color: aliceblue;
+		letter-spacing: 40px;
+		margin-bottom: 10px;
+		
+		
+
+	}
+	.creates
+	{
+		margin-top: 30px;
+	}
+	hr
+	{
+		background-color: white;
+		margin-top: 20px;
+	}
+	.icons
+	{
+		transition-duration: 1s;
+		
+	}
+	.icons:hover
+	{
+		
+		animation-name: icon_animation ;
+		animation-duration: 0.6s;	
+	}
+
+	.imgcont
+	{
+		display: flex;
+		margin: 15px;       
+	}
+
+	.imgs
+	{
+		width: 25%;
+	}
+
+	#img1
+	{
+		background: linear-gradient(red,blue);
+		padding: 3px;
+		margin-right: 15px;
+		transform: scale(0.9);
+		transition-duration: 1s;
+		
+	}
+	#img1:hover
+	{
+		transform: scale(1.0);
+		background: linear-gradient(blue,yellow,red);
+
+	}
+	#img2
+	{
+		background: linear-gradient(red,blue);
+		padding: 3px;
+		margin-right: 15px;
+		transform: scale(0.9);
+		transition-duration: 1s;
+
+
+	}
+	#img2:hover
+	{
+		transform: scale(1.0);
+		background: linear-gradient(blue,yellow,red);
+
+	}
+	#img3
+	{
+		background: linear-gradient(red,blue);
+		padding: 3px;
+		margin-right: 15px;
+		transform: scale(0.9);
+		transition-duration: 1s;
+
+
+	}
+	#img3:hover
+	{
+		transform: scale(1.0);
+		background: linear-gradient(blue,yellow,red);
+
+	}
+	#img4
+	{
+		background: linear-gradient(red,blue);
+		padding: 3px;
+		margin-right: 15px;
+		transform: scale(0.9);
+		transition-duration: 1s;
+
+
+	}
+	#img4:hover
+	{
+		transform: scale(1.0);
+		background: linear-gradient(blue,yellow,red);
+
+	}
+
+
+	#name1:hover
+	{
+		animation-name: icon_animation ;
+		animation-duration: 0.6s;	
+	}
+
+	#name2:hover
+	{
+		animation-name: icon_animation ;
+		animation-duration: 0.6s;			
+	}
+
+	#name3:hover
+	{
+		animation-name: icon_animation ;
+		animation-duration: 0.6s;	
+	}
+
+	#name4:hover
+	{
+		animation-name: icon_animation ;
+		animation-duration: 0.6s;	
+	}
+
+
+	#name5:hover
+	{
+		animation-name: icon_animation ;
+		animation-duration: 0.6s;	
+	}
+
+
+
+
+	@keyframes icon_animation {
+		0%
+		{
+			transform: translate(0);
+		}
+		25%
+		{
+			transform: translate(-3px);
+		}
+		50%
+		{
+			transform: translate(3px);
+		}
+		75%
+		{
+			transform: translate(-3px);
+		}
+		100%
+		{
+			transform: translate(0);
+
+		}
+	}
+	.seconddiv
+	{
+		margin-top: 0%;
+		padding: 0%;
+		background-image: url("bg.jpg");
+		/* background-size: cover; */
+
+	}
+	.prjimg
+	{
+		/* filter: invert(1); */
+		transform: scale(0.8);
+	}
+	#projecthead
+	{
+		font-size: 100px;
+		font-family: Century;
+		color: aliceblue;
+		letter-spacing: 40px;
+		margin-bottom: 10px;
+		/* text-shadow: 1px 1px 10px white; */
+		
+	}
+	.prjdescription
+	{
+		font-size: 30px;
+		color: rgb(237, 185, 94);
+		word-spacing: 3px;
+		padding: 10PX;
+	}
+	.moreinfo{
+		margin: 5px;
+		margin-bottom: 10px;
+	}
+	.moreinfo:visited
+	{
+		color: aqua;
+	}
+	.moreinfo:hover
+	{
+		color: red;
+	}
+
+	.moreproject{
+		margin: 5px;
+		margin-bottom: 10px;
+		font-size: 20px;
+		color: aqua;
+	}
+	.moreproject1{
+		margin: 5px;
+		margin-bottom: 10px;
+		font-size: 20px;
+		color: aqua;
+	}
+	.moreproject1:visited
+	{
+		color: aqua;
+	}
+
+	.moreproject1:hover
+	{
+		color: red;
+	}
+	
+		
+		
+
+		
